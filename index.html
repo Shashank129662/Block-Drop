@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block Drop</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <div id="video">
+    </div>
+    <div id="logo" align="center">
+       <p><span style="color: limegreen;">B</span><span style="color: yellow;">L</span><span style="color: purple;">O</span><span style="color: tomato;">C</span><span style="color: aqua;">K</span> <span style="color:orange;">D</span><span style="color: limegreen;">R</span><span style="color: aqua;">O</span><span style="color: purple;">P</span></p>
+    </div>
+    <div id="button">
+        <a href="main.html" target="_self">
+        <button id="play" title="Click to Start" onclick="" target="_self">PLAY</button>
+        </a>
+        <br>
+        <button id="HTP" title="Controls" onclick="Openpopup()">Controls</button>
+        <div id="HTPPOP" class="HTPPOP">
+        <div class="popup-content">
+            <span class="close" onclick="Closepopup()">&times;</span>
+            <p align="center">CONTROLS:-</p>
+            <br>
+            <p align="center"style="color: aqua;"> ↑ ROTATE THE PIECE.</p>
+            <br>
+            <p align="center" style="color: yellow;"> ↓ MOVING THE PIECE TOWARDS DOWN.</p>
+            <br>
+            <p align="center" style="color: purple;"> →  MOVING THE PIECE TOWARDS RIGHT.</p>
+            <br>
+            <p align="center" style="color: lime;"> ←  MOVING THE PIECE TOWARDS LEFT.</p>
+        </div>
+        </div>
+        <br>
+        <button id="About" title="Creator" onclick="AOpenpopup()">ABOUT</button>
+        <div id="AboutPopup" class="AboutPopup">
+            <div class="Apopup-content">
+                <span class="Aclose" onclick="AClosepopup()">&times;</span>
+                <p align="center">Creator :-</p>
+                <p >👋 Hi there! I'm Shashank Sharma, a 21-year-old Computer Science Engineering student at Guru Tegh Bahadur Institute of Technology. Passionate about data science and its applications. 🚀</p>
+                <p> 🌟 About Me:</p>
+                <p>📚 Currently pursuing Computer Science Engineering at Guru Tegh Bahadur Institute of Technology.</p>
+                    <p>💻 Aspiring Data Scientist.</p>
+                    <p>🌱 Constantly learning and exploring new technologies.</p>
+                    <br>
+                                <p>📫 You can reach me at:-</p>
+                                    <br>
+                                    
+                                    <p>📧 Email:-shashanksharma129662@gmail.com</p>
+                                    <br>
+                                    <p>🔗 GitHub:- github.com/ShashankSharma98</p>
+            </div>
+        </div>
+    
+        <br>
+        <button id="Quit" title="Did you play the game" onclick="Cpopup()">QUIT</button>
+        <div class="CPop" id="CPop">
+            <div class="CPop-content">
+                <p align="center">ARE YOU SURE ? </p>
+                <button class="b1"onclick="closeTab()">YES</button>
+                <button class="b2" onclick="CClose()">NO</button>
+            </div>
+        </div>
+    
+        <br>
+    </div>
+    
+        <audio class="pop" id="pop">
+            <source src="Music/tap-notification-180637.mp3">
+        </audio>
+    <script src="indexsrc.js"></script>
+</body>
+</html>

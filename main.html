@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playzone</title>
+    <link rel="stylesheet" href="2.css">
+
+</head>
+<body>
+    <div  id="score" class="score" align="center">
+        <h2>SCORE</h2>
+            <h2 id="bt" class="bt">0</h2>
+    </div>
+    <a href="index.html">
+        <i class="fa-solid fa-arrow-left" title="Main Menu"></i>
+    </a>
+    <canvas id="Game"></canvas>
+        <div class="GOpopup" id="GOpopup">
+            <div class="GOpopup-content">
+                <p align="center">Game Over</p>
+                <button class="b1" onclick="GRestart()">Restart</button>
+                <a href="index.html">
+                <button class="b2">Main Menu</button>
+                
+            </div>
+        </div>
+        <audio class="GameOver" id="GameOver" loop>
+            <source src="Music/09. Game Over.mp3">
+        </audio>
+        <a class="mainaudio" id="mainaudio">
+            <audio loop>
+                <source src="Music/Tertis soundtrack.mp3">
+            </audio>
+        </a>
+</body>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/04331a6e88.js" crossorigin="anonymous"></script>
+</html>

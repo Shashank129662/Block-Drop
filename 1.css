@@ -1,0 +1,249 @@
+body
+{
+    background-image: url(images/img1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#logo
+{
+    font-family: "Press Start 2P";
+    font-size: 900%;
+}
+#button
+{
+    #play
+    {
+        margin-top: 30px;
+        margin-left: 45%;
+    font-family:"Press Start 2P";
+    font-size: 40px;
+    padding: 10px;
+    height: 65px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: lime;
+    color: white;
+    border-width: 4px;
+    border-color: white;
+    }
+    #HTP
+    {
+        margin-left: 45%;
+        margin-top: 40px;
+        font-family:"Press Start 2P";
+        height: 60px;
+        width: 400px;
+        font-size: 40px;
+        border-radius: 20px;
+        background-color: turquoise;
+        border-color: white;
+        border-width: 4px;
+            color: white;
+    }
+    .HTPPOP
+    {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .popup-content
+    {
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 1400px;
+        height: 1700px;
+        padding: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-family: "Press Start 2P";
+        font-size:400%;
+        color: white;
+        border-radius: 10px;
+        border-style: solid;
+        border-width: 20px;
+        border-color: #aaa;
+    }
+    .close
+    {
+        columns: #aaa;
+        float: right;
+        font-family: "Press Start 2P";
+        font-size: 50px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .close:hover,
+    .close:focus
+    {
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    #About
+    {
+        margin-left: 45%;
+        margin-top: 40px;
+        font-family:"Press Start 2P";
+        height: 60px;
+        width: 400px;
+        font-size: 40px;
+        border-radius: 20px;
+        background-color: purple;
+        border-width: 4px;
+        border-color: white;
+        color: white;
+    }
+    .AboutPopup
+    {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .Apopup-content
+    {
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 1400px;
+        height: 1400px;
+        padding: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-family: "Press Start 2P";
+        font-size:200%;
+        color: white;
+        border-radius: 10px;
+        border-style: solid;
+        border-width: 20px;
+        border-color: #aaa;
+    }
+    .Aclose
+    {
+        columns: #aaa;
+        float: right;
+        font-family: "Press Start 2P";
+        font-size: 50px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .Aclose:hover,
+    .Aclose:focus
+    {
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    #Quit
+    {
+        margin-left: 45%;
+        margin-top: 40px;
+        font-family:"Press Start 2P";
+        height: 60px;
+        width: 400px;
+        font-size: 40px;
+        border-radius: 20px;
+        background-color: tomato;
+        border-width: 4px;
+        color: white;
+        border-color: white;
+
+    
+    }
+    .CPop{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    }
+    .CPop-content
+    {
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 1400px;
+        height: 700px;
+        padding: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-family: "Press Start 2P";
+        font-size:200%;
+        color: white;
+        border-radius: 10px;
+        border-style: solid;
+        border-width: 20px;
+        border-color: #aaa;
+    }
+    .b1
+    {
+        margin-left: 10%;
+        margin-top: 40px;
+        font-family:"Press Start 2P";
+        height: 60px;
+        width: 400px;
+        font-size: 40px;
+        border-radius: 20px;
+        background-color:tomato;
+        border-width: 4px;
+        border-color: white;
+        color: white;
+    }
+    .b2
+    {
+        margin-left: 10%;
+        margin-top: 40px;
+        font-family:"Press Start 2P";
+        height: 60px;
+        width: 400px;
+        font-size: 40px;
+        border-radius: 20px;
+        background-color: limegreen;
+        border-width: 4px;
+        border-color: white;
+        color: white;
+    }
+    .b1:hover,
+    .b1:focus
+    {
+        border-color: black;
+    }
+    .b2:hover,
+    .b2:focus
+    {
+        border-color: black;
+    }
+    #Quit:hover,
+    #Quit:focus
+    {
+        border-color: black;
+    }
+    #About:hover,
+    #About:focus
+    {
+        border-color: black;
+    }
+    #play:hover,
+    #play:focus
+    {
+        border-color: black;
+    }
+    #HTP:hover,
+    #HTP:focus
+    {
+        border-color: black;
+    }
+
+}
